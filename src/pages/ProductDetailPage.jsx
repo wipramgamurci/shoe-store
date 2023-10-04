@@ -137,25 +137,25 @@ const ProductDetailPage = () => {
                 <img
                   width={100}
                   height={100}
-                  src={BASE_URL + selectedProduct.name + '.png'}
+                  src={'.' + BASE_URL + selectedProduct.name + '.png'}
                   alt=""
                 />
                 <img
                   width={100}
                   height={100}
-                  src={BASE_URL + selectedProduct.name + '.png'}
+                  src={'.' + BASE_URL + selectedProduct.name + '.png'}
                   alt=""
                 />
                 <img
                   width={100}
                   height={100}
-                  src={BASE_URL + selectedProduct.name + '.png'}
+                  src={'.' + BASE_URL + selectedProduct.name + '.png'}
                   alt=""
                 />
                 <img
                   width={100}
                   height={100}
-                  src={BASE_URL + selectedProduct.name + '.png'}
+                  src={'.' + BASE_URL + selectedProduct.name + '.png'}
                   alt=""
                 />
               </div>
