@@ -63,7 +63,7 @@ const ProductDetailPage = () => {
               <img
                 width={515}
                 height={600}
-                src={BASE_URL + selectedProduct.name + '.png'}
+                src={'.' + BASE_URL + selectedProduct.name + '.png'}
                 alt=""
               />
             </Col>

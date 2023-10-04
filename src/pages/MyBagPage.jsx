@@ -45,7 +45,7 @@ const MyBagPage = () => {
                     className="cursor-pointer"
                   />
                   <img
-                    src={BASE_URL + item.name + '.png'}
+                    src={'.' + BASE_URL + item.name + '.png'}
                     width={150}
                     height={150}
                     className="ms-5"

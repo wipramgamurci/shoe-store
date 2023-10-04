@@ -54,7 +54,7 @@ const Product = () => {
             return (
               <Col lg={3} key={index}>
                 <Card className="mt-5 cursor-pointer" onClick={handleClick}>
-                  <Card.Img variant="top" src={BASE_URL + item.name + '.png'} />
+                  <Card.Img variant="top" src={'.' + BASE_URL + item.name + '.png'} />
                   <Card.Body>
                     <Row>
                       <Col md={8}>
