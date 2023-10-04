@@ -158,12 +158,6 @@ const ProductDetailPage = () => {
                   src={'.' + BASE_URL + selectedProduct.name + '.png'}
                   alt=""
                 />
-                <img
-                  width={100}
-                  height={100}
-                  src={'./shoe-store' + BASE_URL + selectedProduct.name + '.png'}
-                  alt=""
-                />
               </div>
             </Col>
           </Row>
